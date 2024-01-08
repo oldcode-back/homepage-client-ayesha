@@ -11,10 +11,35 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-.section{
-  padding: 70px 60px;
+h2{
+  color: #494949;
+  font-size: 50px;
+  font-weight: 700;
+}
+h4{
+        font-family: Tangerine;
+        color: #DF9300;
+        font-size: 45px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-transform: capitalize;
+        margin-bottom: -15px;
+    }
+p{
+  color: #5B5B5B;
+  font-size: 20px;
+  font-weight: 400;
 }
 
+.section{
+  padding: 70px 60px;
+  position: relative;
+}
+
+.section2{
+  width: 100vw;
+  padding: 70px 0px;
+}
 /* banner section start  */
 /* banner slider styles start */
 .banner-swiper-slide{
@@ -49,7 +74,7 @@ body{
   justify-content: space-between;
   margin: 5px 0px;
 }
-h4{
+.card-row h5{
   color: #494949;
   font-size: 20px;
   font-weight: 600;
@@ -79,3 +104,73 @@ h4{
   font-weight: 400;
 }
 /* card section end */  
+
+
+/* best offer section start */
+.parent-div{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
+.left-div{
+  width: 40%;
+}
+.left-div h2{
+  margin-bottom:40px;
+}
+.right-div{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+/* .top-right-bg{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: -250px;
+  right: -100px;
+  z-index: -1;
+} */
+.top-right-bg{
+  position: absolute;
+  top: -150px;
+  right: -80px;
+  z-index: -1;
+}
+.outer-circle{
+  width: 300px;
+  height: 300px;
+  background-color: #FAFAFC;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 70px 20px rgba(232, 235, 239, 0.436);
+}
+.inner-circle{
+  width: 70%;
+  height: 70%;
+  background-color: #fff;
+  border-radius: 100%;
+  /* box-shadow: 0px 0px 20px 5px rgba(179, 195, 218, 0.25); */
+}
+
+.bottom-left{
+  width: 190px;
+  height: 190px;
+  background-color: #fff;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 70px 20px rgba(232, 235, 239, 0.436);
+  position: absolute;
+  bottom: 0px;
+  left: -80px;
+  z-index: -1;
+}
+/* best offer section end */

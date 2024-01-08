@@ -1,5 +1,12 @@
 import styled from "styled-components"
+
+//image imports
 import line from '../../assets/images/line.svg'
+import aboutImg1 from '../../assets/images/about-img1.png'
+import aboutImg2 from '../../assets/images/about-img2.png'
+
+
+
 const Wrapper = styled.div`
 padding: 20px;
 .heading{
@@ -22,9 +29,13 @@ padding: 20px;
 }
 .about-img{
     width: 25%;
-    background-color: #000;
     height: 400px;
-    border-radius: 25px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 25px;
+    }
 }
 .about-content{
     width: 55%;
@@ -65,13 +76,17 @@ const About = () => {
             </div>
 
             <div className="about-div">
-                <div className="about-img"></div>
+                <div className="about-img">
+                    <img src={aboutImg1} alt="" />
+                </div>
                 <div className="about-content">
                     <h4>discover</h4>
                     <h3> our story</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con Duis aute irure dolor in reprehenderit in voluptate </p>
                 </div>
-                <div className="about-img"></div>
+                <div className="about-img">
+                    <img src={aboutImg2} alt="" />
+                </div>
             </div>
         </Wrapper>
     )
