@@ -112,7 +112,7 @@ const BannerSlider = () => {
                     navigation={{
                         nextEl: '.swiper-button-next',
                         prevEl: '.swiper-button-prev',
-                        clickable: true
+                        clickable: true,
                     }}
                     modules={[Autoplay, Pagination, Navigation]}
                     className="banner-swiper"
