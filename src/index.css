@@ -7,7 +7,7 @@
 body{
   width: 100vw;
   height: 100vh;
-  overflow-x:hidden;
+  overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -17,13 +17,14 @@ h2{
   font-weight: 700;
 }
 h4{
-        font-family: Tangerine;
+        /* font-family: Tangerine; */
         color: #DF9300;
-        font-size: 45px;
-        font-weight: 400;
+        font-size: 30px;
+        font-weight: 700;
         letter-spacing: 3px;
         text-transform: capitalize;
         margin-bottom: -15px;
+        text-align: center;
     }
 p{
   color: #5B5B5B;
@@ -127,14 +128,7 @@ p{
   justify-content: center;
   padding: 30px;
 }
-/* .top-right-bg{
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  top: -250px;
-  right: -100px;
-  z-index: -1;
-} */
+
 .top-right-bg{
   position: absolute;
   top: -150px;

@@ -9,7 +9,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 // import required modules
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
 
 //image imports
 import bsImage1 from '../../assets/images/bestOffersImages/bs-img-1.png'
@@ -20,9 +20,9 @@ import bsImage3 from '../../assets/images/bestOffersImages/bs-img-3.png'
 const Wrapper = styled.div`
 ${'' /* swiper styles start  */}
 .swiper {
-  width: 80%;
+  width: 100%;
   padding-top: 50px;
-  padding-bottom: 130px;
+  padding-bottom: 80px;
 }
 
 .swiper-slide {
@@ -63,6 +63,10 @@ const BestOffersSlider = () => {
                 grabCursor={true}
                 centeredSlides={false}
                 slidesPerView={'auto'}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                }}
                 coverflowEffect={{
                     rotate: 0,
                     stretch: 0,
@@ -71,7 +75,7 @@ const BestOffersSlider = () => {
                     slideShadows: false,
                 }}
                 pagination={true}
-                modules={[EffectCoverflow, Pagination]}
+                modules={[Autoplay, EffectCoverflow, Pagination]}
                 className="mySwiper"
             >
                 <SwiperSlide>
