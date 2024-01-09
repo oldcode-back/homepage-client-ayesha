@@ -1,7 +1,11 @@
 //styled-component imports
 import styled from 'styled-components'
 //image imports
-import landingBg from '../../assets/images/landing-bg.png'
+import banner1 from '../../assets/images/bannerSliderImages/banner1.png'
+import banner2 from '../../assets/images/bannerSliderImages/banner2.png'
+import banner3 from '../../assets/images/bannerSliderImages/banner3.png'
+import banner4 from '../../assets/images/bannerSliderImages/banner4.png'
+
 //icon imports
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 //swiper imports
@@ -119,35 +123,29 @@ const BannerSlider = () => {
                 >
                     <SwiperSlide
                         className='banner-swiper-slide'
-                        style={{ background: `url(${landingBg}) rgba(0,0,0,0.5)` }}>
+                        style={{ background: `url(${banner1}) rgba(0,0,0,0.5)` }}>
                         <h1 className='slider-heading'>
                             Welcome to <br /><span>bromag</span>
                         </h1>
                     </SwiperSlide>
 
                     <SwiperSlide className='banner-swiper-slide'
-                        style={{ background: `url(${landingBg}) rgba(0,0,0,0.5)` }}>
+                        style={{ background: `url(${banner2}) rgba(0,0,0,0.5)` }}>
                         <h1 className='slider-heading'>
-                            slider 2
+
                         </h1>
                     </SwiperSlide>
 
                     <SwiperSlide className='banner-swiper-slide'
-                        style={{ background: `url(${landingBg}) rgba(0,0,0,0.5)` }}>
+                        style={{ background: `url(${banner3}) rgba(0,0,0,0.5)` }}>
                         <h1 className='slider-heading'>
-                            slider 3
+
                         </h1>
                     </SwiperSlide>
                     <SwiperSlide className='banner-swiper-slide'
-                        style={{ background: `url(${landingBg}) rgba(0,0,0,0.5)` }}>
+                        style={{ background: `url(${banner4}) rgba(0,0,0,0.5)` }}>
                         <h1 className='slider-heading'>
-                            slider 4
-                        </h1>
-                    </SwiperSlide>
-                    <SwiperSlide className='banner-swiper-slide'
-                        style={{ background: `url(${landingBg}) rgba(0,0,0,0.5)` }}>
-                        <h1 className='slider-heading'>
-                            slider 5
+
                         </h1>
                     </SwiperSlide>
 
@@ -161,7 +159,7 @@ const BannerSlider = () => {
 
                         <div className="swiper-pagination swiper-pagination-fraction swiper-pagination-horizontal">
                             <span className="swiper-pagination-current">1</span> /
-                            <span className="swiper-pagination-total">5</span>
+                            <span className="swiper-pagination-total">4</span>
                         </div>
                     </div>
 

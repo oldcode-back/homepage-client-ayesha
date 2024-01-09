@@ -1,13 +1,12 @@
 //styled-component imports
 
 //component imports
-import { Header, Footer, BannerSlider, About, Blogs, Features } from '../components'
+import { Header, Footer, BannerSlider, About, Blogs, Features, Cuisines, BestOffersSlider, SignatureFoods, ExploreFood, OtherFeatures, Gallery } from '../components'
 //image imports
 import FullStar from '../assets/images/full-star.svg'
 import EmptyStar from '../assets/images/empty-star.svg'
-import BestOffersSlider from '../components/homePageComponents/BestOffersSlider'
-import Cuisines from '../components/homePageComponents/Cuisines'
-// import topRightBg from '../assets/images/top-right-bg.svg'
+
+
 
 const Home = () => {
     return (
@@ -77,19 +76,28 @@ const Home = () => {
                 </section>
 
 
-                <section id='features' className='section2'>
+                <section id='menu' className='section2'>
                     <Cuisines />
                 </section>
 
-                <section id='menu' style={{ width: "100vw", height: "50vh" }}>
-                    <h5>menu</h5>
+                <section className='section2' style={{ paddingTop: '0px' }}>
+                    <SignatureFoods />
                 </section>
 
-                <section id='gallery' style={{ width: "100vw", height: "50vh" }}>
-                    <h5>gallery</h5>
+                <section className='section2'>
+                    <ExploreFood />
+                </section>
+
+                <section className='section'>
+                    <OtherFeatures />
+                </section>
+
+                <section id='gallery' className='section2'>
+                    <Gallery />
                 </section>
 
             </div>
+
             <Footer />
         </div>
     )

@@ -105,7 +105,7 @@ ${'' /* swiper styles start */}
     border-radius: 100px;
 
     span{
-        font-size: 15px;
+        font-size: 20px;
         display:flex;
         align-items: center;
     }
