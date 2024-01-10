@@ -50,22 +50,18 @@ const Wrapper = styled.div`
 
 
 ${'' /* swiper styles start */}
-
 .swiper {
   width: 80%;
   height: 100%;
   margin-top: -80px;
-  padding:0px 20px 40px 20px;
+  padding:0px 20px 0px 20px;
 }
-
-
 .swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
-
 .swiper-slide img{
     width: 100%;
     height: 100%;
@@ -74,7 +70,7 @@ ${'' /* swiper styles start */}
 }
 .slider-content{
     width: 100%;
-    height: 30%;
+    height: 25%;
     position: absolute;
     bottom: 0px;
     background: rgba(0,0,0,0.5);
@@ -87,23 +83,20 @@ ${'' /* swiper styles start */}
         color: #FFF;
         font-size: 20px;
         font-weight: 500;
-        
+
     }
 }
-
 .slider-controller {
     width: 100%;
+    height: 50px;
     position: relative;
-    padding-top: 30px;
 }
-
 .swiper-button-prev, .swiper-button-next{
     width: 35px;
     height: 35px;
     color: #FF9D02;
     border: 2px solid #FF9D02;
     border-radius: 100px;
-
     span{
         font-size: 20px;
         display:flex;
@@ -124,9 +117,10 @@ ${'' /* swiper styles start */}
 .swiper-button-next::after{
     content:'';
 }
-
 .swiper-pagination-fraction{
-    bottom: 0px;
+    width: 50px;
+    position: absolute;
+    left: 48%;
 }
 .swiper-pagination-current{
     color: #DF9300;
@@ -138,7 +132,6 @@ ${'' /* swiper styles start */}
     font-size: 20px;
     font-weight: 500;
 }
-
 
 ${'' /* swiper styles end */}
 `;
@@ -166,7 +159,7 @@ const Cuisines = () => {
                         clickable: true,
                     }}
                     modules={[Pagination, Navigation]}
-                    className="blogs-swiper"
+                    className="cuisines-swiper"
                 >
 
 
@@ -233,10 +226,9 @@ const Cuisines = () => {
                             <span><FaArrowRightLong /></span>
                         </div>
 
-                        <div className="swiper-pagination swiper-pagination-fraction swiper-pagination-horizontal">
-                            <span className="swiper-pagination-current">1</span> /
-                            <span className="swiper-pagination-total">5</span>
-                        </div>
+                        <div className="swiper-pagination swiper-pagination-fraction swiper-pagination-horizontal"><span className="swiper-pagination-current">4</span> / <span className="swiper-pagination-total">5</span></div>
+
+
                     </div>
 
                 </Swiper>

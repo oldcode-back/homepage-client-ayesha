@@ -126,7 +126,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px;
+  padding: 0px 10px;
 }
 
 .top-right-bg{

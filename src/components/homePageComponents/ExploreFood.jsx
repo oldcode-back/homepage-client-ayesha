@@ -93,7 +93,7 @@ const ExploreFood = () => {
             <div className="top-content">
                 <div className="heading">
                     <img className="line" src={line} alt="" />
-                    <h2>Signature Foods</h2>
+                    <h2>Explore Our Foods</h2>
                     <img className="line" src={line} alt="" />
                 </div>
                 <p>

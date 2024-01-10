@@ -74,7 +74,7 @@ ${'' /* swiper styles start */}
   width: 80%;
   height: 100%;
   margin-top: -80px;
-  padding:0px 20px 40px 20px;
+  padding:0px 20px 0px 20px;
 }
 
 
@@ -82,14 +82,14 @@ ${'' /* swiper styles start */}
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 
 }
 
 .slider-controller {
     width: 100%;
+    height: 25px;
     position: relative;
-    padding-top: 30px;
 }
 
 .swiper-button-prev, .swiper-button-next{
@@ -119,7 +119,11 @@ ${'' /* swiper styles start */}
 .swiper-button-next::after{
     content:'';
 }
-
+.swiper-pagination{
+    width: auto;
+    position: absolute;
+    left: 45%;
+}
 .swiper-pagination-bullet-active{
     background: #000 !important;
     width: 12px;
