@@ -13,7 +13,7 @@ const Home = () => {
         <div>
             <Header />
 
-            <div className='page-content' style={{ paddingTop: '70px' }}>
+            <div className='page-content' style={{ paddingTop: '60px' }}>
 
                 <section>
                     <BannerSlider />
