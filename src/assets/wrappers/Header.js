@@ -22,6 +22,7 @@ z-index: 10;
     height: 70px;
     position: absolute;
     left: 0px;
+    top: 0px;
     img{
         width: 100%;
         height: 100%;

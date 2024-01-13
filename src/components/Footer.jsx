@@ -8,13 +8,16 @@ import { FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
 
 //image import
 import logo from '../assets/images/logo.png'
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
         <Wrapper>
-            <div className="logo">
-                <img src={logo} alt="" />
-            </div>
+            <Link to='/' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                <div className="logo">
+                    <img src={logo} alt="" />
+                </div>
+            </Link>
             <div className="footer-parent-div">
 
                 <div className="footer-left-div">
@@ -30,7 +33,7 @@ const Footer = () => {
                         <span>
                             <CiLocationOn />
                         </span>
-                        Velachery, Chennai</p>
+                        Chennai,Tamil Nadu</p>
                     <p>
                         <span>
                             <GoMail />
@@ -51,15 +54,15 @@ const Footer = () => {
             <div className="socials">
                 <h3>social links</h3>
                 <div className="social-icons">
-                    <span><FaTwitter /></span>
-                    <span><FaFacebookF /></span>
-                    <span><FaInstagram /></span>
+                    <span className="twitter"><FaTwitter /></span>
+                    <span className="facebook"><FaFacebookF /></span>
+                    <span className="instagram"><FaInstagram /></span>
                 </div>
             </div>
 
             <div className="copyright">
                 <p>
-                    © 2024 Piqual, All Rights Reserved.
+                    © 2024 BIPL, All Rights Reserved.
                 </p>
                 <p>
                     <a href="#">Privacy Policy</a>{" "}|{" "}
