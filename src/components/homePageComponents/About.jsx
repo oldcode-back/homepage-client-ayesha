@@ -43,13 +43,9 @@ padding: 20px;
     text-align: center;
     background: #F4F4F4;
     h4{
-        font-family: Tangerine;
         color: #DF9300;
-        font-size: 45px;
-        font-weight: 400;
-        letter-spacing: 3px;
         text-transform: capitalize;
-        margin-bottom: -15px;
+        margin-bottom: -8px;
     }
     h3{
         color: #494949;

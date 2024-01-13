@@ -11,6 +11,7 @@ import logo from '../assets/images/logo.png'
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+
     return (
         <Wrapper>
             <Link to='/' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
@@ -45,7 +46,7 @@ const Footer = () => {
                     <form >
                         <input type="text" placeholder="Enter your name" />
                         <input type="text" placeholder="Enter your email" />
-                        <input type="text" placeholder="Enter your mobile number" />
+                        <input type="number" placeholder="Enter your mobile number" id="mobile" />
                         <button type="submit">Send</button>
                     </form>
                 </div>
