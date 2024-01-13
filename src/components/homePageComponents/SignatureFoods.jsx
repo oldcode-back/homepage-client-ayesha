@@ -49,6 +49,12 @@ padding: 20px 0px;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 7px;
     position: relative;
+    p{
+        text-align:center;
+        padding-top: 25px;
+        font-size: 16px;
+        font-weight: 600;
+    } 
 }
 .card-img{
     width: 100%;
@@ -58,7 +64,9 @@ padding: 20px 0px;
         height: 100%;
         object-fit: cover;
     }
+      
 }
+
 .circle{
     width: 20px;
     height: 20px;
@@ -72,26 +80,26 @@ padding: 20px 0px;
 .card1{
     transform: rotate(-4.5deg);
     position: absolute;
-    left: 8.7%;
-    top: 17%;
+    left: 9.2%;
+    top: 18%;
 }
 .card2{
     transform: rotate(8deg);
     position: absolute;
-    left: 30.5%;
-    top: 40%;
+    left: 31%;
+    top: 43%;
 }
 .card3{
     transform: rotate(-9deg);
     position: absolute;
-    left: 53.7%;
-    top: 15%;
+    left: 54.4%;
+    top: 17%;
 }
 .card4{
     transform: rotate(9deg);
     position: absolute;
-    left: 78.6%;
-    top: 25%;
+    left: 79.2%;
+    top: 27%;
 }
 `;
 
@@ -116,6 +124,7 @@ const SignatureFoods = () => {
                         <div className="card-img">
                             <img src={signature1} alt="" />
                         </div>
+                        <p>Biryani</p>
                         <div className="circle"></div>
                     </div>
                 </div>
@@ -125,6 +134,7 @@ const SignatureFoods = () => {
                         <div className="card-img">
                             <img src={signature2} alt="" />
                         </div>
+                        <p>Chicken Finger</p>
                         <div className="circle"></div>
                     </div>
                 </div>
@@ -134,6 +144,7 @@ const SignatureFoods = () => {
                         <div className="card-img">
                             <img src={signature3} alt="" />
                         </div>
+                        <p>Sheeq kebab</p>
                         <div className="circle"></div>
                     </div>
                 </div>
@@ -143,6 +154,7 @@ const SignatureFoods = () => {
                         <div className="card-img">
                             <img src={signature4} alt="" />
                         </div>
+                        <p>Chicken Gravy</p>
                         <div className="circle"></div>
                     </div>
                 </div>

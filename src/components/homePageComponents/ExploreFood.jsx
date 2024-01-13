@@ -100,7 +100,7 @@ const ExploreFood = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreUt enim ad minim
                 </p>
 
-                <a href="#">Order now</a>
+                <a href="https://bromagindia.com/" target="blank">Order now</a>
             </div>
             <div className="explore-food-bg">
                 <img src={exploreFood} alt="" />

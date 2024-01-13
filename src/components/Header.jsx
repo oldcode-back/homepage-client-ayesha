@@ -6,15 +6,19 @@ import logo from '../assets/images/logo.png'
 import { HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 
+import { Link } from 'react-router-dom'
+
 const Header = () => {
     const [isActive, setIsActive] = useState('');
 
     return (
         <Wrapper>
             <div className='navbar'>
-                <div className='brand'>
-                    <img src={logo} alt="logo" />
-                </div>
+                <Link to='/' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                    <div className='brand' >
+                        <img src={logo} alt="logo" />
+                    </div>
+                </Link>
 
                 <div className='nav-links'>
 

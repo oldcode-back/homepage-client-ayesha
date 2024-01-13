@@ -67,6 +67,7 @@ input{
     box-shadow: none;
     border-style: none;
     padding: 0px 20px;
+    color: #fff;
 }
 button{
     width: 30%;
@@ -98,6 +99,23 @@ button{
     span{
         font-size: 20px;
     }
+}
+
+
+.twitter:hover{
+    color: #FF9D02;
+    font-size: 30px;
+    transition: all 0.2s;
+}
+.facebook:hover{
+    color: #FF9D02;
+    font-size: 30px;
+    transition: all 0.2s;
+}
+.instagram:hover{
+    color: #FF9D02;
+    font-size: 30px;
+    transition: all 0.2s;
 }
 
 .copyright{
