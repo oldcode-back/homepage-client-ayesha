@@ -69,6 +69,16 @@ input{
     padding: 0px 20px;
     color: #fff;
 }
+/* Apply styles to hide the default number input arrows */
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 button{
     width: 30%;
     padding: 10px 0px;

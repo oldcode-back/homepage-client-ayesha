@@ -80,26 +80,26 @@ padding: 20px 0px;
 .card1{
     transform: rotate(-4.5deg);
     position: absolute;
-    left: 9.2%;
+    left: 8.7%;
     top: 18%;
 }
 .card2{
     transform: rotate(8deg);
     position: absolute;
-    left: 31%;
+    left: 30.5%;
     top: 43%;
 }
 .card3{
     transform: rotate(-9deg);
     position: absolute;
-    left: 54.4%;
-    top: 17%;
+    left: 53.7%;
+    top: 16%;
 }
 .card4{
     transform: rotate(9deg);
     position: absolute;
-    left: 79.2%;
-    top: 27%;
+    left: 78.6%;
+    top: 25.7%;
 }
 `;
 
